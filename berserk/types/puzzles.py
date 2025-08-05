@@ -1,6 +1,7 @@
 from __future__ import annotations
 
-from typing import Literal, List
+from enum import Enum
+
 from typing_extensions import TypedDict
 
 from .common import Color
@@ -49,3 +50,11 @@ class PuzzleRace(TypedDict):
     id: str
     # Puzzle race URL
     url: str
+
+
+class Difficulty(str, Enum):
+    EASIEST = "easiest"
+    EASIER = "easier"
+    NORMAL = "normal"
+    HARDER = "harder"
+    HARDEST = "hardest"

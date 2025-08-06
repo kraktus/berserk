@@ -16,7 +16,7 @@ To be released
 * Fixed ``client.broadcasts.push_pgn_update`` endpoint URL.
 * Updated ``finished`` patameter to ``status`` in ``client.broadcasts.update_round``.
 
-Thanks to @nicvagn, @tors42, @fitztrev, @trevorbayless, @Looki2000 and @stafot for their contributions to this release
+Thanks to @nicvagn, @tors42, @fitztrev, @trevorbayless, @Looki2000 @stafot and @Python-David for their contributions to this release
 
 v0.13.2 (2023-12-04)
 --------------------
